@@ -8,3 +8,7 @@ if z == 3.45 or y == "hello":
 print(x)
 print(y) 
    
+   
+x = 5
+if 0 < x and x < 12 or x == 5 :
+    print ("x é menor que uma dúzia!")
