@@ -1,13 +1,13 @@
 " O que é web Scrapping?"
 
-# Acesse o HTML da pagina da web e extrai as informações/dados uteis.
+# Acessa o HTML da pagina da web e extrai as informações/dados uteis.
 # Essa tecnica é chamada de web scrapping ou web extration 
 
 # é o termo usado para descrever o uso de algoritmo ou programa para extrair
 # e processar grandes volumes de dados da web
 
 # Extraimos de  forma automatica  e apresentamos da forma para melhor entendimento, 
-# mandar email, pdv, csv,json  e or aí vai, e nos ajudar a tomar decisoes ou melhor uso dos dados
+# mandar email, pdv, csv,json  e por aí vai, nos ajudar a tomar decisoes ou melhor uso dos dados
 
 # por isso entendemos que também devemos agir com responsabilidade nesse trabalho..
 # na internet temos um grupo de padroes que regulam como esse robos rastreiam a web, acessam  e indexam conteúdo
