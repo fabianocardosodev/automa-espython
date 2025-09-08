@@ -112,4 +112,37 @@ Ir para o google \n\n\n\nSou apenas uma nova divisão\n\tQuer ir para o site do 
 Sou um rodapé \n\n\n\n'
 
 
+>>> soup.title
+<title>Um HTML simples</title>
+
+>>> soup.div
+<div class="article" id="I_AM_Unique" style="background-color:peachpuff">
+<p style="background-color:peachpuff">Eu sou a descrição do tópico aleatório acima. Não há necessidade de me ler em tudo.  
+                Ainda assim, se você está lendo, o problema é seu.
+                Você ainda não consegue descobrir, eu sou inútil?
+                Pessoal, parem de me ler agora.
+                Obrigado
+        </p>
+</div>
+
+
+>>> list(soup.div.children)
+['\n', <p style="background-color:peachpuff">Eu sou a descrição do tópico aleatório acima. Não há necessidade de me ler em 
+tudo.
+                Ainda assim, se você está lendo, o problema é seu.
+                Você ainda não consegue descobrir, eu sou inútil?
+                Pessoal, parem de me ler agora.
+                Obrigado
+        </p>, '\n']
+        
+>>> for i in list(soup.div.children): 
+...     print(i.name)
+... 
+None
+p
+None
+
+>>>soup.a
+<a href="http://www.google.com"><h3><b> Ir para o google </b></h3></a>
+
 """
