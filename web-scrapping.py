@@ -22,3 +22,4 @@
 #Informa os motores de busca quais páginas não devem aparecer nos resultados de pesquisa, como áreas administrativas, páginas de login ou rotas de API. 
 #Proteger áreas sensíveis:
 #Permite bloquear o acesso a áreas do site que os proprietários não querem que sejam indexadas, como o painel de administração de um e-commerce ou de um CMS"
+
